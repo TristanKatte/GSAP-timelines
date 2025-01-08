@@ -18,7 +18,7 @@ export const chapterTwo = () => {
 
 // planet 
 function tlPlanet() {
-   const tl = gsap.timeline({})
+   const tl = gsap.timeline({});
 
    tl.to(el.planet, 1, { scale: 6, yPercent: 120 })
       .to(el.ch2Trigger, .5, {opacity:0, yPercent:200})
@@ -41,7 +41,7 @@ function tlSpaceNerd() {
    const tl = gsap.timeline({})
 
    tl.to(el.spaceNerd, 1, { opacity: 1, xPercent:20, scale: .1 })
-      .to(el.spaceNerdArm, .05, { rotate: 6, repeat: -1, yoyo: true })
+      .to(el.spaceNerdArm, .05, { rotate: 2, repeat: -1, yoyo: true });
    
    return tl
 }
