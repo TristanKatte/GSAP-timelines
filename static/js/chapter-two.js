@@ -1,6 +1,6 @@
-import { el } from './elements.js'
+import { el } from "./elements.js";
 
-const tlChapterTwo = gsap.timeline({ defaults: { duration: 1 } })
+const tlChapterTwo = gsap.timeline({ defaults: { duration: 1 } });
 
 // master timeline
 export const chapterTwo = () => {
@@ -11,7 +11,7 @@ export const chapterTwo = () => {
       .add(tlSpaceNerd(), 2)
       .add(tlSpaceWelder(), 2)
    return tlChapterTwo;
-}
+};
 
 // functions
 // child timelines
